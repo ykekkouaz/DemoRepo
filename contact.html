@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact pg</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="contact.html"><li>Contact Page</li></a>
+                <a href="contact2.html"><li>Contact Page 2</li></a>
+            </ul>
+
+        </nav>
+
+    </header>
+    <h1>Contact Page</h1>
+
+    <form>
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="tel" name="phone_num" placeholder="(555)444-5000"
+    pattern="[\(]\d{3}[\)]\d{3}][\)]\d{3}[\-]\d{4}" required>
+    <textarea name="message" placeholder="Your Message"></textarea>
+    <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
